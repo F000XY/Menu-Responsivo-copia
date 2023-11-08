@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: plum;
+}
+
+header {
+    background-color: plum;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#burguer{
+    background-color: rgb(175, 48, 175);
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{ /* trocar a cor do menu ao passar o  mouse */
+    background-color: whitesmoke;
+    color: plum;
+}
+
+
+menu {
+    display: none; /* para tirar o menu */
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a { /* cadeias asim não são obrigatórias mas são boas para não perder a hierarquia */
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(175, 48, 175);
+    text-align: center;
+    color: whitesmoke;
+    border-top: 2px solid whitesmoke;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.27); /* para trocar a cor ao passar o mouse */
+}
+
+main{
+    width: 90vw;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+article > p {
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
