@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TROPIC</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="tropiccopia.css">
+    <link rel="stylesheet" href="midiaqcopia.css">
+    <style>    
+        @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap');
+
+        h1, a {
+            font-family: 'Edu TAS Beginner', cursive;
+        }
+      </style>
+</head>
+<body onresize="mudouTamanho()"> 
+    <header>
+        <h1> Tropic </h1>
+        <i id= "burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul> 
+                <li><a href="#" target="tela">&#9830 O que </a>
+                <li><a href="#" target="tela">&#9830 Classe </a>
+                <li><a href="#" target="tela">&#9830 Como tomar </a>
+                <li><a href="#" target="tela">&#9830 Onde descartar</a>
+             </ul>    
+          </menu>
+</header> 
+<main>
+ <article>
+    <p> Os antidepressivos desempenham um papel fundamental no tratamento 
+        da depressão e de outros distúrbios do humor, proporcionando alívio 
+        aos indivíduos que sofrem com essas condições. Para entender a importância 
+        dos antidepressivos, é crucial explorar o papel da serotonina no nosso corpo.
+        A serotonina é um neurotransmissor que desempenha diversas funções, incluindo
+        a regulação do humor, sono, apetite e cognição. Um desequilíbrio na quantidade 
+        de serotonina no cérebro pode estar relacionado ao desenvolvimento de 
+        transtornos de humor, como a depressão.
+    </p>
+    <p>
+        Existem diferentes classes de antidepressivos, cada uma agindo de maneira 
+        distinta no sistema de neurotransmissores do cérebro. As classes de 
+        antidepressivos mais comuns incluem os Inibidores Seletivos da Recaptação de 
+        Serotonina (ISRS), que aumentam a disponibilidade de serotonina no cérebro, os
+        Inibidores da Recaptação de Serotonina e Norepinefrina (IRSN), que atuam em
+        ambos os neurotransmissores, e os Inibidores da Monoamina Oxidase (IMAO),
+        que impedem a quebra de serotonina e outros neurotransmissores.
+    </p>    
+    <p>
+        Essas classes de antidepressivos desempenham um papel vital no tratamento da 
+        depressão, oferecendo opções terapêuticas que podem ajudar a restaurar o 
+        equilíbrio da serotonina e, assim, melhorar a saúde mental dos pacientes.
+        
+    </p>
+ </article>
+</main>
+<footer>
+
+</footer>
+<script>
+    const burgerButton = document.getElementById("burguer");
+    const menu = document.querySelector(".material-icons");
+
+    burgerButton.addEventListener("click", function() {
+     menu.classList.toggle("active");
+     });
+    /*function mudouTamanho(){  essa função foi feita para mostrar o menu em tamanho medio 
+            itens.style.display= 'block'
+    }else{
+        itens.style.display='none'
+      }
+
+    }
+
+ /* 
+     function clickMenu() {  
+       if(mec.style.display== 'block'){
+        mec.style.display= 'none'
+       } else {
+        mec.style.display= 'block'
+       }
+    }   
+
+    function clickMenu() {   
+       if(oq.style.display== 'block'){
+        oq.style.display= 'none'
+       } else {
+        oq.style.display= 'block'
+       }
+    }     
+
+    function clickMenu() {   
+       if(clas.style.display== 'block'){
+        clas.style.display= 'none'
+       } else {
+        oq.style.display= 'block'
+       }
+    }    
+    function clickMenu() {   
+       if(ct.style.display== 'block'){
+        ct.style.display= 'none'
+       } else {
+        ct.style.display= 'block'
+       }
+    }   
+
+    function clickMenu() {   
+       if(od.style.display== 'block'){
+        od.style.display= 'none'
+       } else {
+        od.style.display= 'block'
+       }
+    }    */
+
+
+
+
+</script>
+</body>
+</html>
